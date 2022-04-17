@@ -1,9 +1,9 @@
-var botao = document.getElementById('botao')
+const botao = document.getElementById('botao')
 
 botao.addEventListener('click',()=>{
     
-    var numero1 = document.getElementById('numero1')
-    var numero2 = document.getElementById('numero2')
+    const numero1 = document.getElementById('numero1')
+    const numero2 = document.getElementById('numero2')
 
     var n1 = Number(numero1.value)
     var n2 = Number(numero2.value)
@@ -20,15 +20,15 @@ botao.addEventListener('click',()=>{
 
 const soma = (nu1,nu2)=>{   
     
-    var resulIguais = document.getElementById('resultado-iguais') 
-    var resulSoma = document.getElementById('resultado-soma') 
-    var resulMaior = document.getElementById('resultado-maior') 
-    var resulMenor = document.getElementById('resultado-menor') 
-    var resulPar = document.getElementById('resultado-par') 
-    var resulImpar = document.getElementById('resultado-impar')
-    var resultTextoIguais = document.getElementById('resultado-texto-iguais')
-    var resultTextoSoma = document.getElementById('resultado-texto-soma')
-    var resultCompara = document.getElementById('resultado-compara')
+    const resulIguais = document.getElementById('resultado-iguais') 
+    const resulSoma = document.getElementById('resultado-soma') 
+    const resulMaior = document.getElementById('resultado-maior') 
+    const resulMenor = document.getElementById('resultado-menor') 
+    const resulPar = document.getElementById('resultado-par') 
+    const resulImpar = document.getElementById('resultado-impar')
+    const resultTextoIguais = document.getElementById('resultado-texto-iguais')
+    const resultTextoSoma = document.getElementById('resultado-texto-soma')
+    const resultCompara = document.getElementById('resultado-compara')
     
     var n1 = Number(nu1)
     var n2 = Number(nu2)
