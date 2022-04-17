@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Poiret+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Righteous&family=Russo+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(8, 9, 100);
+    height: 100vh;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    font-size: 70px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.bloco h2{
+    color: rgb(8, 9, 100);
+    margin-top: 10px;
+}
+
+.botao{
+    width: 100px;
+    height: 25px;
+    color: rgb(8, 9, 100);
+}
+
+.bloco1{
+    text-align: center;
+    padding: 20px;
+}
+
+.bloco1 input{
+    margin-top: 20px;
+    height: 25px;
+    color: rgb(8, 9, 100);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.iguais, .soma, .maior, .menor, .par, .impar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 10px solid rgb(8, 9, 100);
+}
+
+.resultado{
+    line-height: 100px;
+    font-size: 1.5rem;
+}
+.resultado-texto{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.iguais{
+    background-color: red;
+}
+
+.soma{
+    background-color: blueviolet;
+}
+
+.maior{
+    background-color: green;
+}
+
+.menor{
+    background-color: fuchsia;
+}
+
+.par{
+    background-color: darkorange;
+}
+
+.impar{
+    background-color: darkgray;
+}
